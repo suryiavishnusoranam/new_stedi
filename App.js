@@ -24,6 +24,7 @@ const App = () =>{
   const [phoneNumber, setPhoneNumber] = React.useState("");
   const [oneTimePassword, setOneTimePassword] = React.useState(null);
 
+  //STARTING HERE! MAKE SURE YOUR CODE MATCHES THIS
   useEffect(()=>{
     const getSessionToken = async()=>{
     const sessionToken = await AsyncStorage.getItem('sessionToken');

@@ -13,7 +13,7 @@ const Home = (props) => {
   const [score, setScore] = useState(0);
   useEffect(()=>{ todayScore();},[]);
 
-//today score
+//STARTING HERE! MAKE SURE YOUR CODE MATCHES THIS
 const todayScore = async() =>{
   let scoreObject ={};
   try{
